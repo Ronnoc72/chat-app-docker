@@ -1,5 +1,5 @@
 # chat-app
-An application that was made using XAMPP.
+An application that was made using XAMPP.<br />
 Front-end of pure HTML, CSS, and JS.
 Back-end of PHP.
 
