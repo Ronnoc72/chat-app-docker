@@ -1,0 +1,18 @@
+:root {
+  --tea-green: #dcf2b0ff;
+  --tea-green-2: #c2eabdff;
+  --gray-x-11-gray: #c0babcff;
+  --khaki-web: #c7ac92ff;
+  --cedar-chest: #cd533bff;
+  --main-font: 'Poppins';
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: var(--main-font), sans-serif;
+  font-weight: 200;
+}

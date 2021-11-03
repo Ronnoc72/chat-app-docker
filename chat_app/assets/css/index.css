@@ -1,0 +1,43 @@
+/* colors: dcf2b0,c2eabd,c0babc,c7ac92,cd533b */
+#banner {
+  padding: 100px 0 100px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: var(--khaki-web);
+  background: linear-gradient(180deg, var(--tea-green), var(--tea-green-2));
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
+}
+
+#banner h1 {
+  font-size: 78px;
+}
+
+#banner p {
+  font-size: 24px;
+}
+
+#account {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#account div {
+  text-align: center;
+  background: var(--tea-green-2);
+  padding: 100px;
+  border-radius: 5%;
+}
+
+#account div a {
+  color: var(--cedar-chest);
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#account div:hover {
+  transition: 200ms;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

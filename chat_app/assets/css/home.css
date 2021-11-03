@@ -1,0 +1,105 @@
+* {
+  z-index: 5;
+}
+
+h2 {
+  color: var(--khaki-web);
+  font-size: 32px;
+  text-align: center;
+  text-shadow: -2px 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+#account-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  z-index: 0;
+}
+
+#conversations {
+  padding: 1px 0 15px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: linear-gradient(180deg, var(--tea-green), var(--tea-green-2));
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#conversations h4 {
+  color: var(--gray-x-11-gray);
+  font-size: 24px;
+}
+
+#conversations a {
+  color: var(--cedar-chest);
+  text-decoration: none;
+  font-size: 16px;
+  background-color: var(--gray-x-11-gray);
+  border-radius: 5%;
+  padding: 5px 4px 5px 4px;
+}
+
+#conversations a:hover {
+  transition: 200ms;
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+}
+
+#links {
+  display: flex;
+  justify-content: center;
+}
+
+#links div {
+  font-size: 20px;
+  text-align: center;
+  width: 20%;
+  padding: 25px;
+  margin: 20px 10px 0 10px;
+  background: linear-gradient(180deg, var(--tea-green), var(--tea-green-2));
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#links div a {
+  text-decoration: none;
+  color: var(--khaki-web);
+  border: 2px solid var(--gray-x-11-gray);
+  padding: 10px 5px 10px 5px;
+  border-radius: 25%;
+}
+
+#links div a:hover {
+  transition: 200ms;
+  font-weight: 500;
+  border-radius: 20%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.online1 {
+  background-color: green;
+}
+
+.online0 {
+  background-color: gray;
+}
+
+.online-user {
+  position: relative;
+  top: 10px;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 10px;
+  height: 10px;
+}
+
+.convo {
+  display: flex;
+  justify-content: center;
+}

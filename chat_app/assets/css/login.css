@@ -1,0 +1,49 @@
+body {
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--khaki-web);
+  font-size: 28px;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+}
+
+#login form {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5%;
+  background: linear-gradient(180deg, var(--tea-green), var(--tea-green-2));
+  padding: 100px;
+}
+
+#login form input {
+  font-size: 24px;
+  border: none;
+}
+
+#login form button {
+  font-size: 20px;
+  width: 100%;
+}
+
+#back, #login form button {
+  border: none;
+  background: var(--cedar-chest);
+  font-weight: 500;
+  opacity: 0.4;
+}
+
+#back:hover, #login form button:hover {
+  transition: 200ms;
+  opacity: 1;
+}
+
+#register-btn {
+  color: var(--cedar-chest);
+  text-decoration: none;
+  background-color: var(--gray-x-11-gray);
+}
